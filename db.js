@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-
+import dotenv from 'dotenv';
 const connectDB=async()=>{
    
     const MONGO_URI="mongodb+srv://Akhil:Akhil1234@cluster0.ghgsmj9.mongodb.net/FullStackEcommerce?retryWrites=true&w=majority&appName=Cluster0"
